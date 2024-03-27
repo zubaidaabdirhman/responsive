@@ -11,6 +11,59 @@ h1, h2, h3, h4, h5, h6{
     font-family: 'inter',sans-serif;
     font-weight: 600;
 }
+/* small screens */
+@media screen and (max-width: 578px){
+    body{
+        font-size:14px
+    }
+    #logo-with-text{
+        display:none;
+    }
+    #logo{
+        display:block;
+    }
+    #banner{
+        width: 100%;
+        object-fit: cover;
+        height:120px;
+       
+    }
+    #navbar{
+        padding:2px;
+    }
+
+}
+
+/* small screen and tablets */
+@media screen and (min-width: 576px){
+    
+}
+/* Laptops */
+@media screen and (min-width: 758px){
+
+}
+/* large screens*/
+@media screen and (min-width: 992px){
+
+}
+/* large screens*/
+@media screen and (min-width: 1200px){
+
+}
+/*
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto',sans-serif;
+    font-size: 1rem;
+   
+}
+h1, h2, h3, h4, h5, h6{
+    color: #222;
+    text-align: center;
+    font-family: 'inter',sans-serif;
+    font-weight: 600;
+}
 
 h1{font-size: 2.5rem;}
 h2{font-size: 2rem;}
@@ -159,4 +212,6 @@ h3{
 #discription ul{
     list-style-type: none;
 }
+
+/*
 
