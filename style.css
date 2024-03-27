@@ -2,8 +2,7 @@ body{
     padding: 0;
     margin: 0;
     font-family: 'Roboto',sans-serif;
-    font-size: 1rem;
-   
+    font-size: 1rem; 
 }
 h1, h2, h3, h4, h5, h6{
     color: #222;
@@ -36,11 +35,40 @@ h1, h2, h3, h4, h5, h6{
 
 /* small screen and tablets */
 @media screen and (min-width: 576px){
-    
+    body{
+        font-size:16px
+    }
+    #banner{
+        width: 100%;
+        object-fit: cover;
+        height:120px;
+    }
+    #logo-with-text{
+        display:none;
+    }
+    #logo{
+        display:block;
+    }
+    #navbar{
+        padding: 2px;
+    }
 }
 /* Laptops */
 @media screen and (min-width: 758px){
-
+    #banner{
+        width: 100%;
+        object-fit: cover;
+        height:200px;
+    }
+    #logo-with-text{
+        display:none;
+    }
+    #logo{
+        display:block;
+    }
+    #navbar{
+        padding: 8px;
+    }
 }
 /* large screens*/
 @media screen and (min-width: 992px){
